@@ -1,0 +1,80 @@
+body {
+    margin-left: 25px;
+    margin-top: px;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+.box {
+    width: 400px;
+    margin: 80px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: black;
+    border-radius: 12%;
+    border: 1px solid lightsalmon;
+    background-color: grey;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.box:hover {
+    background-color: darkslategray;
+    transform: scale(1.1);
+}
+    .container {
+    margin-bottom: 20px;
+}
+.pending-container{
+    color: red;
+}
+form {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border-radius: 9%;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 27px;
+    background-color: coral;
+    border-radius: 20%;
+    height: 40px;
+    width: 90px;
+    font-size: 17px;
+    border-color: white;
+    cursor: pointer;
+}
+complet_pcontainer{
+    color: aqua;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+.section-divider {
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 10px;
+}
+.task-item {
+    counter-increment: task-counter;
+    font-size: 30px;
+}
+
+.task-item:before {
+    content: counter(task-counter);
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 30px;
+}
